@@ -1,3 +1,4 @@
+/* INI BAGIAN GLOBAL */
 * {
   box-sizing: border-box;
 }
@@ -20,6 +21,10 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+/* END BAGIAN GLOBAL */
+
+/* INI BAGIAN HEADER */
 
 .top-wrapper {
   padding: 180px 0 100px 0;
@@ -124,6 +129,10 @@ header {
   display: none;
 }
 
+/* END BAGIAN HEADER */
+
+/* BAGIAN UTAMA */
+
 .lesson-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -170,6 +179,10 @@ header {
   font-weight: normal;
 }
 
+/* END BAGIAN UTAMA */
+
+
+/* BAGIAN EXTAR 1 */
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
@@ -189,6 +202,15 @@ header {
   box-shadow: none;
 }
 
+/* END BAGIAN EXTAR 1 */
+
+/* BAGIAN EXTRA 2 */
+
+
+/* END BAGIAN EXTRA 2 */
+
+
+/* BAGIAN FOOTER */
 footer img {
   width: 125px;
 }
@@ -202,3 +224,4 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
+/* END BAGIAN FOOTER */
