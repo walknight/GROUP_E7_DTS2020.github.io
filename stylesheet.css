@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
 }
 
 a {
@@ -20,6 +20,17 @@ a {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #212529;
+}
+
+.heading h2 {
+  font-weight: bold;
+  font-size: 2em;
 }
 
 /* END BAGIAN GLOBAL */
@@ -133,7 +144,12 @@ header {
 
 /* BAGIAN UTAMA */
 
-.lesson-wrapper {
+
+/* END BAGIAN UTAMA */
+
+
+/* BAGIAN EXTAR 1 */
+.extra-one {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
@@ -141,31 +157,37 @@ header {
   text-align: center;
 }
 
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.lesson {
+.type-box {
   float: left;
   width: 25%;
+  /* ini buat ngasih tau ke browser kalau clas ini menggunakan animasi */
+  transition:all 0.3s ease;
+}
+/* ini untuk animasi hover di div dengan class type-box,
+jadi pas mouse hover, langsung jalanin animasi */
+.type-box:hover{
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+}
+.type-box p{
+  color:#212529;
 }
 
-.lesson-icon {
+.type-icon {
   position: relative;
 }
+.type-icon img{
+  width: 170px;
+  margin-bottom: 12px;
+}
 
-.lesson-icon p {
+/* .type-icon p {
   position: absolute;
   top: 44%;
   width: 100%;
   color: white;
-}
+} */
 
 .text-contents {
   width: 80%;
@@ -179,10 +201,9 @@ header {
   font-weight: normal;
 }
 
-/* END BAGIAN UTAMA */
+/* END BAGIAN EXTAR 1 */
 
-
-/* BAGIAN EXTAR 1 */
+/* BAGIAN EXTRA 2 */
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
@@ -201,11 +222,6 @@ header {
   top: 7px;
   box-shadow: none;
 }
-
-/* END BAGIAN EXTAR 1 */
-
-/* BAGIAN EXTRA 2 */
-
 
 /* END BAGIAN EXTRA 2 */
 
