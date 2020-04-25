@@ -30,7 +30,7 @@ a {
 
 .heading h2 {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 32px;
 }
 
 /* END BAGIAN GLOBAL */
@@ -162,6 +162,7 @@ header {
   width: 25%;
   /* ini buat ngasih tau ke browser kalau clas ini menggunakan animasi */
   transition:all 0.3s ease;
+  height: 200px;
 }
 /* ini untuk animasi hover di div dengan class type-box,
 jadi pas mouse hover, langsung jalanin animasi */
