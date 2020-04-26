@@ -23,4 +23,17 @@
       font-size: 14px;
       line-height: 20px;
     }
+
+    footer img{
+      margin : 0 auto;
+    }
+
+    .menu-icon{
+      display: block;
+    }
+
+    .header-right{
+      display: none;
+    }
+
   }
