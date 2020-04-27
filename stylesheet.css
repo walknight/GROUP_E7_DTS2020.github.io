@@ -43,6 +43,7 @@ a {
   background-image: url('images/jomblo.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #464646;
   width: 100%;
   height: 620px;
   color: white;
@@ -66,40 +67,6 @@ a {
   margin: 20px 0;
 }
 
-/*.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-*/
 header {
   height: 55px;
   width: 100%;
@@ -149,49 +116,33 @@ header {
 
 /* BAGIAN UTAMA */
 
-.lesson-wrapper {
-  padding-bottom: 80px;
+.bagian-utama {
+  padding-bottom: 20px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
 }
 
-.lesson {
-  float: left;
-  width: 100%;
+.utama-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.lesson-icon {
-  float: left;
-  margin-right: 50px;
+.content-kiri img {
+  padding: 50px;
 }
 
-.heading-right p {
-  float: right;
-  text-align: justify;
-}
-.heading-right h3 {
-  font-size: 28px;
-  text-align: left;
-  font-weight: normal;
-}
-
-.text-contents {
-  width: 100%;
-  margin-top: 5px;
-  font-size: 15px;
-  color: #212529;
-}
 
 /* END BAGIAN UTAMA */
 
 
 /* BAGIAN EXTAR 1 */
 .extra-one {
-  padding-bottom: 80px;
+  padding-bottom: 150px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  background-color: rgba(255, 255, 255, 0.3);
   text-align: center;
 }
 
@@ -240,28 +191,11 @@ jadi pas mouse hover, langsung jalanin animasi */
   font-weight: normal;
 }
 
+
+
 /* END BAGIAN EXTAR 1 */
 
 /* BAGIAN EXTRA 2 */
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
 .extra-two {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -271,6 +205,17 @@ jadi pas mouse hover, langsung jalanin animasi */
   height: 200px;
   color: white;
 }
+
+.extra-two h2{
+  color: white;
+}
+
+.content-extra-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .content {
  padding-top: 10px;
 }

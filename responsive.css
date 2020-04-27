@@ -18,10 +18,22 @@
     .type-box {
       width: 100%;
     }
+
+    .top-wrapper{
+      height: 50%;
+    }
     
     .top-wrapper p {
       font-size: 14px;
       line-height: 20px;
+    }
+
+    .utama-content{
+      flex-direction: column;
+    }
+
+    .content-kiri img {
+      padding: 20px;
     }
 
     footer img{
