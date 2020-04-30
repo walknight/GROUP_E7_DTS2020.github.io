@@ -12,6 +12,11 @@ a {
   text-decoration: none;
 }
 
+html{
+  /* ini untuk buat scroll jadi smooth untuk klik ke tag id tujuan */
+  scroll-behavior: smooth; 
+}
+
 .clear {
   clear: left;
 }
